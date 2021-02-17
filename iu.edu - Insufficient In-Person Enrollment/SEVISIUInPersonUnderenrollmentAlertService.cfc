@@ -1,5 +1,17 @@
 import istart.core.StringBuilder;
 
+/**
+ * @author Tim Climis (tclimis@iu.edu)
+ * @disclaimer Since I work directly for IU, I feel a need to say that
+ * this code is a custom component made for IU, and is not official sunapsis
+ * code.  Do not reach out to official sunapsis support for help with this
+ * custom component. This is not designed with client business practices in
+ * mind, and your mileage may vary.
+ *
+ * Base In-Person Underenrollment alert:
+ * Reports new students who have reported that they're taking classes in-person
+ * but have no in-person classes on their course enrollment.
+ */
 component extends="AbstractSimpleAlert" {
 
     public AlertType function getAlertType() {
