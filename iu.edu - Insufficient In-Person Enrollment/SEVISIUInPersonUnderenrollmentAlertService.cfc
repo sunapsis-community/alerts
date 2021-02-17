@@ -56,7 +56,8 @@ component extends="AbstractSimpleAlert" {
                 AND currentAdmission.INST_CD = jbStudentTerm.campus
             LEFT JOIN dbo.jbCustomFields2 AS covid19Data
                 ON covid19Data.idnumber = jbInternational.idnumber
-                AND covid19Data.customField5 = '1' -- online, out of country";
+                AND covid19Data.customField5 = '1' -- online, out of country
+                AND covid19Data.customField3 = LEFT(jbStudentTerm.semester, 4)";
     }
 
     private string function getWhereStatement() {
