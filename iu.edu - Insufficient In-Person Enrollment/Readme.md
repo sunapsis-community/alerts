@@ -1,0 +1,3 @@
+At IU, we have an e-form which is collecting where students are studying: in-person, online from within the US, online from outside the US, or deferring admission to another semester.  Once that e-form is submitted, we're using a template to insert that data into one of the Custom Fields tables (jbCustomFields5).
+
+This alert looks at enrollment for new in-person students to ensure that they're enrolled in at least 1 in-person credit.
