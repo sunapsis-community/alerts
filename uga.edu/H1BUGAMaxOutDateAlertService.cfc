@@ -1,5 +1,6 @@
-/** H1B Max Out Date Alert - within 1 year
-IMMI-43 Issue
+/** H1B Max Out Date Alert - within 1 year of Maximum Employment Time
+IMMI-43 Issue "Micah says: How about a 'H1B Max Out Date' on one of the native employment screens?"
+
 The H-1B Initial template will pull in the date entered by the user into the new Max Out field. 
 
 If you are transferring your H status to UGA, this is your original H-1B start date plus 6 years
