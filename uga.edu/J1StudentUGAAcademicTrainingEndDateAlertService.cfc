@@ -19,7 +19,7 @@ component extends="AbstractSimpleAlert" {
 					jbInternational.idnumber
 					,jbInternational.campus
 					,5 AS threatlevel
-					,'Alert message.' as alertMessage
+					,'This alert shows students who have an Academic Training end date in the next 30 days.' as alertMessage
 				FROM 
 					sevisDS2019AcademicTraining
 					INNER JOIN jbInternational ON jbInternational.idnumber = sevisDS2019AcademicTraining.idnumber
